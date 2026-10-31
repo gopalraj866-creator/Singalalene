@@ -128,7 +128,7 @@ jobs:
         run: |
           mkdir -p final
           case "${{ matrix.profile }}" in 4k) NAME=Beta_Pictoris_4K ;; 1080p) NAME=Beta_Pictoris_1080p ;; shorts) NAME=Beta_Pictoris_Shorts ;; *) NAME=Beta_Pictoris_${{ matrix.profile }} ;; esac
-          scripts/assemble.sh "${{ matrix.profile }}" chunks_in "final/$NAME.mp4"
+          bash scripts/assemble.sh "${{ matrix.profile }}" chunks_in "final/$NAME.mp4"
           case "${{ matrix.profile }}" in shorts) KIND=short ;; *) KIND=long ;; esac
           cp "build/subtitles_$KIND.srt" "final/$NAME.srt"
           cp "build/audio_$KIND.m4a" "final/$NAME.audio.m4a"

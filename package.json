@@ -1,0 +1,20 @@
+{
+  "name": "beta-pictoris-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Three.js (WebGL) rendered YouTube video: Radio signals from Beta Pictoris b - not an alien message",
+  "type": "module",
+  "scripts": {
+    "audio": "python3 scripts/build_audio.py",
+    "render": "node scripts/render.js",
+    "preview": "node scripts/render.js --profile preview",
+    "plan": "node scripts/plan.js",
+    "serve": "node scripts/server.js"
+  },
+  "dependencies": {
+    "@fontsource/inter": "5.2.5",
+    "@fontsource/space-grotesk": "5.2.5",
+    "puppeteer": "25.16.0",
+    "three": "0.186.1"
+  }
+}

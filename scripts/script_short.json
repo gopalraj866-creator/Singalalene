@@ -1,0 +1,45 @@
+{
+  "title": "Radio signals from 63 light-years away: NOT aliens #shorts",
+  "target_seconds": 56,
+  "scenes": [
+    {
+      "id": "hook", "lead": 0.5, "tail": 0.4, "music": { "mood": "mystery", "pulse": true, "impact": true }, "bursts": [0.05, 0.12],
+      "segs": [
+        { "t": "Astronomers just detected radio signals from sixty-three light-years away.", "cues": ["planet"] },
+        { "t": "Is it aliens?", "cues": ["alien"] },
+        { "t": "No. And the truth is wilder.", "cues": ["no"] }
+      ]
+    },
+    {
+      "id": "system", "lead": 0.3, "tail": 0.3, "music": { "mood": "wonder" },
+      "segs": [
+        { "t": "The source is Beta Pictoris b, a planet twelve times the mass of Jupiter, spinning once every eight to nine hours.", "cues": ["mass", "spin"] }
+      ]
+    },
+    {
+      "id": "meerkat", "lead": 0.3, "tail": 0.3, "music": { "mood": "wonder" }, "bursts": [0.8, 0.88],
+      "segs": [
+        { "t": "South Africa's MeerKAT telescope, sixty-four dishes working as one, caught short bursts of radio waves.", "cues": ["where", "dishes"] }
+      ]
+    },
+    {
+      "id": "quasars", "lead": 0.3, "tail": 0.3, "music": { "mood": "tension" },
+      "segs": [
+        { "t": "Using nine distant quasars as reference points, astronomers traced them to the planet itself.", "cues": ["quasars", "result"] }
+      ]
+    },
+    {
+      "id": "field", "lead": 0.3, "tail": 0.3, "music": { "mood": "triumph" }, "bursts": [0.15, 0.3],
+      "segs": [
+        { "t": "It's a radio aurora, like the northern lights, but powered by a magnetic field at least twelve hundred and fifty gauss. Thousands of times stronger than Earth's.", "cues": ["gauss", "compare"] }
+      ]
+    },
+    {
+      "id": "notaliens", "lead": 0.3, "tail": 0.3, "music": { "mood": "triumph" },
+      "segs": [
+        { "t": "The signal is broadband and circularly polarized. That's the fingerprint of nature, not technology.", "cues": ["broad", "polar"] },
+        { "t": "The first direct measurement of an exoplanet's magnetic field. Follow for more space news.", "cues": ["amazing", "cta"] }
+      ]
+    }
+  ]
+}

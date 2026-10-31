@@ -1,0 +1,29 @@
+Radio signals from 63 light-years away just made headlines. Is it an alien message? No — and the real story is wilder.
+
+Astronomers using South Africa's MeerKAT telescope traced repeating radio bursts to the giant exoplanet Beta Pictoris b: a radio aurora powered by a magnetic field at least ~1,250 gauss — thousands of times stronger than Earth's. In this video: how the signal was pinned on the planet using nine quasars, what electron cyclotron maser emission is, why it isn't technology, and what comes next.
+
+CHAPTERS
+0:00 The signal
+0:32 What was announced
+1:07 A 63 light-year journey
+1:45 Meet Beta Pictoris b
+2:24 MeerKAT listens
+3:07 Pinning it on a planet
+3:53 A radio aurora
+4:32 A monster magnetic field
+5:22 What powers it?
+5:58 Why it is NOT aliens
+6:47 What happens next
+7:36 Final thoughts
+
+Note: the result is a preprint (arXiv:2609.16720, posted 15 Sep 2026) and has not yet been peer reviewed. Diagrams are illustrative, not to scale. Narration is a synthetic voice; visuals are generated with Three.js.
+
+SOURCES
+ZME Science: https://www.zmescience.com/space/astronomers-detected-a-radio-signal-coming-directly-from-an-exoplanet-for-the-first-time/
+arXiv preprint: https://arxiv.org/abs/2609.16720
+Phys.org: https://phys.org/news/2026-09-astronomers-radio-exoplanet.html
+Techlicious: https://www.techlicious.com/blog/first-radio-signal-exoplanet-beta-pictoris-b/
+Discover: https://www.discovermagazine.com/radio-emission-detected-from-massive-exoplanet-reveals-a-magnetic-field-far-stronger-than-earth-s-49766
+NewsNation (Avi Loeb): https://www.newsnationnow.com/space/radio-waves-faraway-planet-avi-loeb/
+
+#space #astronomy #exoplanet #SETI #MeerKAT #BetaPictoris

@@ -1,0 +1,155 @@
+name: Render video (Three.js → 4K / 1080p / Shorts)
+
+on:
+  workflow_dispatch:
+    inputs:
+      profiles:
+        description: "What to render (comma separated): 1080p, 4k, shorts"
+        default: "1080p,shorts"
+        required: true
+      tts_engine:
+        description: "Narration voice engine"
+        type: choice
+        options: [kokoro, edge]
+        default: kokoro
+      voice:
+        description: "Optional voice id (kokoro: af_heart, am_michael, bf_emma...  edge: en-US-AndrewMultilingualNeural, en-IN-PrabhatNeural...)"
+        default: ""
+      publish_release:
+        description: "Also attach the finished files to a GitHub Release (assets must be < 2 GB each)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+env:
+  FORCE_COLOR: "0"
+
+jobs:
+  # 1) narration + music + SFX + SRT + timeline, and the list of render chunks
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+      profiles: ${{ steps.plan.outputs.profiles }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: System packages
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - name: Python packages
+        run: pip install numpy scipy soundfile kokoro-onnx edge-tts
+      - name: Cache Kokoro model
+        uses: actions/cache@v4
+        with:
+          path: models
+          key: kokoro-v1.0
+      - name: Build audio (narration, score, SFX, master, SRT, timeline)
+        run: |
+          VOICE_ARG=""
+          if [ -n "${{ inputs.voice }}" ]; then VOICE_ARG="--voice ${{ inputs.voice }}"; fi
+          python3 scripts/build_audio.py --kind both --engine "${{ inputs.tts_engine }}" $VOICE_ARG
+      - name: Plan render chunks
+        id: plan
+        run: |
+          echo "matrix=$(node scripts/plan.js --profiles '${{ inputs.profiles }}')" >> "$GITHUB_OUTPUT"
+          echo "profiles=$(node -e "console.log(JSON.stringify('${{ inputs.profiles }}'.split(',').map(s=>s.trim()).filter(Boolean)))")" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: audio-and-timeline
+          path: |
+            build/timeline_*.json
+            build/subtitles_*.srt
+            build/audio_*_master.wav
+            build/audio_*.m4a
+            build/audio_*.mp3
+            build/youtube_chapters.txt
+          retention-days: 14
+
+  # 2) every chunk of frames is rendered on its own runner (software WebGL, in parallel)
+  render:
+    needs: prepare
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix: ${{ fromJSON(needs.prepare.outputs.matrix) }}
+    name: ${{ matrix.profile }} · chunk ${{ matrix.chunk }}/${{ matrix.chunks }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: System packages
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg libgbm1 libnss3 libxss1 libasound2t64 || sudo apt-get install -y ffmpeg libgbm1 libnss3 libxss1 libasound2
+      - run: npm ci
+      - uses: actions/download-artifact@v4
+        with: { name: audio-and-timeline, path: build }
+      - name: Render frames ${{ matrix.start }}–${{ matrix.end }}
+        run: |
+          mkdir -p chunks
+          node scripts/render.js --profile "${{ matrix.profile }}" --start ${{ matrix.start }} --end ${{ matrix.end }} \
+            --out "chunks/chunk_$(printf '%03d' ${{ matrix.chunk }}).mp4"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chunks-${{ matrix.profile }}-${{ matrix.chunk }}
+          path: chunks/*.mp4
+          retention-days: 3
+
+  # 3) join chunks, add the 320 kbps AAC master + soft subtitles
+  assemble:
+    needs: [prepare, render]
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        profile: ${{ fromJSON(needs.prepare.outputs.profiles) }}
+    name: assemble ${{ matrix.profile }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: System packages
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - uses: actions/download-artifact@v4
+        with: { name: audio-and-timeline, path: build }
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: chunks-${{ matrix.profile }}-*
+          path: chunks_in
+          merge-multiple: true
+      - name: Assemble final video
+        run: |
+          mkdir -p final
+          case "${{ matrix.profile }}" in 4k) NAME=Beta_Pictoris_4K ;; 1080p) NAME=Beta_Pictoris_1080p ;; shorts) NAME=Beta_Pictoris_Shorts ;; *) NAME=Beta_Pictoris_${{ matrix.profile }} ;; esac
+          scripts/assemble.sh "${{ matrix.profile }}" chunks_in "final/$NAME.mp4"
+          case "${{ matrix.profile }}" in shorts) KIND=short ;; *) KIND=long ;; esac
+          cp "build/subtitles_$KIND.srt" "final/$NAME.srt"
+          cp "build/audio_$KIND.m4a" "final/$NAME.audio.m4a"
+          cp "build/audio_$KIND.mp3" "final/$NAME.audio.mp3"
+          cp "build/audio_${KIND}_master.wav" "final/$NAME.audio.master.wav"
+          [ "$KIND" = long ] && cp build/youtube_chapters.txt final/youtube_chapters.txt || true
+          ls -lh final
+      - uses: actions/upload-artifact@v4
+        with:
+          name: FINAL-${{ matrix.profile }}
+          path: final/*
+          retention-days: 14
+          compression-level: 0
+      - name: Attach to GitHub Release
+        if: ${{ inputs.publish_release }}
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: video-${{ github.run_number }}
+          name: Beta Pictoris video (${{ matrix.profile }}) #${{ github.run_number }}
+          files: |
+            final/*.mp4
+            final/*.srt
+            final/*.audio.m4a
+            final/*.audio.mp3

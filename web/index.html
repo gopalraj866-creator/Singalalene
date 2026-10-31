@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Beta Pictoris b - render stage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/web/style.css">
+<script type="importmap">
+{ "imports": { "three": "/node_modules/three/build/three.module.js", "three/addons/": "/node_modules/three/examples/jsm/" } }
+</script>
+</head>
+<body>
+  <div id="stage">
+    <canvas id="gl"></canvas>
+    <canvas id="ov"></canvas>
+    <div id="labels"></div>
+    <div id="vignette"></div>
+    <div id="brand"></div>
+    <div id="caption"></div>
+    <div id="fade"></div>
+  </div>
+  <script type="module" src="/web/main.js"></script>
+</body>
+</html>

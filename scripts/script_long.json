@@ -1,0 +1,521 @@
+{
+  "title": "Radio Signals Detected 60 Light-Years Away: Why It's NOT an Alien Message",
+  "target_seconds": 480,
+  "scenes": [
+    {
+      "id": "hook",
+      "lead": 1.3,
+      "tail": 0.9,
+      "music": {
+        "mood": "mystery",
+        "pulse": true,
+        "impact": true
+      },
+      "bursts": [
+        0.04,
+        0.09,
+        0.14
+      ],
+      "segs": [
+        {
+          "t": "Sixty-three years ago, a burst of radio waves left a distant world, and began crossing the dark.",
+          "cues": [
+            "planet"
+          ]
+        },
+        {
+          "t": "It travelled for six decades, while humans walked on the Moon, and built the internet.",
+          "cues": [
+            "travel"
+          ]
+        },
+        {
+          "t": "Between twenty twenty-five and twenty twenty-six, a telescope in South Africa finally caught it.",
+          "cues": [
+            "caught"
+          ]
+        },
+        {
+          "t": "The headlines screamed: a signal from another world. Is somebody out there trying to talk to us?",
+          "cues": [
+            "alien"
+          ]
+        },
+        {
+          "t": "The short answer is no. The real answer is stranger, and far more exciting.",
+          "cues": [
+            "no"
+          ]
+        },
+        {
+          "t": "Let's dive in.",
+          "cues": [
+            "title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "headline",
+      "lead": 0.9,
+      "tail": 0.9,
+      "music": {
+        "mood": "wonder"
+      },
+      "segs": [
+        {
+          "t": "In September twenty twenty-six, a team led by Kevin Ortiz Ceballos, at the Harvard and Smithsonian Center for Astrophysics, posted a paper online.",
+          "cues": [
+            "team",
+            "sky"
+          ]
+        },
+        {
+          "t": "Their claim: for the first time, radio waves have been traced directly to a planet outside our solar system.",
+          "cues": [
+            "first"
+          ]
+        },
+        {
+          "t": "Not to a star. To the planet itself.",
+          "cues": [
+            "planetitself"
+          ]
+        },
+        {
+          "t": "It's called Beta Pictoris b, roughly sixty-three light-years away. Some reports say sixty, others sixty-four. Same planet.",
+          "cues": [
+            "name"
+          ]
+        },
+        {
+          "t": "One caveat: this paper is a preprint. It hasn't been peer reviewed yet.",
+          "cues": [
+            "preprint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "journey",
+      "lead": 0.8,
+      "tail": 0.9,
+      "music": {
+        "mood": "wonder",
+        "riser": true
+      },
+      "segs": [
+        {
+          "t": "How far is sixty-three light-years? Light covers nearly ten trillion kilometers in a single year. Multiply that by sixty-three.",
+          "cues": [
+            "lightyear"
+          ]
+        },
+        {
+          "t": "No spacecraft we've built could make that trip in a human lifetime. Voyager One would need more than a million years.",
+          "cues": [
+            "voyager"
+          ]
+        },
+        {
+          "t": "Our destination: the star Beta Pictoris, in the southern constellation Pictor, the Painter's Easel.",
+          "cues": [
+            "pictor"
+          ]
+        },
+        {
+          "t": "It's young, bright, and white. About twenty-three million years old, and roughly twice the mass of our Sun, which makes it practically a newborn.",
+          "cues": [
+            "star"
+          ]
+        },
+        {
+          "t": "Around it swirls an edge-on disk of dust and debris, the leftover rubble of planet-building.",
+          "cues": [
+            "disk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "system",
+      "lead": 0.6,
+      "tail": 0.9,
+      "music": {
+        "mood": "wonder"
+      },
+      "segs": [
+        {
+          "t": "Inside that disk, about ten astronomical units from its star, roughly where Saturn sits in our own solar system, orbits the star of our story.",
+          "cues": [
+            "orbit"
+          ]
+        },
+        {
+          "t": "Beta Pictoris b. A gas giant about twelve times the mass of Jupiter, taking roughly twenty-four years to circle its star.",
+          "cues": [
+            "mass"
+          ]
+        },
+        {
+          "t": "And it spins incredibly fast: one full rotation in only eight to nine hours.",
+          "cues": [
+            "spin"
+          ]
+        },
+        {
+          "t": "A heavyweight planet with a blistering spin, that's the secret. A fast-spinning world with a powerful magnetic field is a natural radio transmitter.",
+          "cues": [
+            "secret"
+          ]
+        },
+        {
+          "t": "Better still, its star is magnetically quiet, so it doesn't drown out the planet's whisper.",
+          "cues": [
+            "quiet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meerkat",
+      "lead": 0.8,
+      "tail": 0.9,
+      "music": {
+        "mood": "wonder"
+      },
+      "bursts": [
+        0.82,
+        0.88,
+        0.93
+      ],
+      "segs": [
+        {
+          "t": "To hear it, the team used MeerKAT, a radio telescope in South Africa's Northern Cape, about ninety kilometers outside the town of Carnarvon.",
+          "cues": [
+            "where"
+          ]
+        },
+        {
+          "t": "It's sixty-four dishes, spread across the desert, working together as one giant ear.",
+          "cues": [
+            "dishes"
+          ]
+        },
+        {
+          "t": "That trick is called interferometry. Combining every dish lets astronomers pinpoint where in the sky a radio wave came from.",
+          "cues": [
+            "interf"
+          ]
+        },
+        {
+          "t": "It's a stepping stone to the Square Kilometre Array, a future mega-telescope.",
+          "cues": [
+            "ska"
+          ]
+        },
+        {
+          "t": "They pointed it at Beta Pictoris four times, across twenty twenty-five and twenty twenty-six. Every time, they heard something.",
+          "cues": [
+            "four"
+          ]
+        },
+        {
+          "t": "Short bursts of radio emission, that brightened and faded in moments.",
+          "cues": [
+            "bursts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quasars",
+      "lead": 0.8,
+      "tail": 0.9,
+      "music": {
+        "mood": "tension"
+      },
+      "segs": [
+        {
+          "t": "But hearing a signal isn't enough. On the sky, the planet sits at most half an arcsecond from its star, the width of a coin seen from seven kilometers away.",
+          "cues": [
+            "tiny"
+          ]
+        },
+        {
+          "t": "Earlier searches found radio signals from planetary systems, but couldn't prove whether the planet or its star was the source.",
+          "cues": [
+            "problem"
+          ]
+        },
+        {
+          "t": "So the team used cosmic lighthouses: nine distant quasars, precisely measured by the Gaia space telescope, plus one carefully located calibrator, as fixed reference points.",
+          "cues": [
+            "quasars"
+          ]
+        },
+        {
+          "t": "Anchoring the radio image to those points locked it onto the sky with astonishing accuracy.",
+          "cues": [
+            "lock"
+          ]
+        },
+        {
+          "t": "The result: the signal lined up with planet b, and was far enough from the star, and from the planet Beta Pictoris c, to rule both out.",
+          "cues": [
+            "result"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aurora",
+      "lead": 0.8,
+      "tail": 0.9,
+      "music": {
+        "mood": "wonder"
+      },
+      "segs": [
+        {
+          "t": "So what is this signal? Think of the northern lights.",
+          "cues": [
+            "earth"
+          ]
+        },
+        {
+          "t": "On Earth, charged particles are funneled by our magnetic field toward the poles, slam into the upper atmosphere, and glow. They also give off radio waves, which we can't see.",
+          "cues": [
+            "particles"
+          ]
+        },
+        {
+          "t": "Jupiter does it far more powerfully. Its radio auroras are strong enough for amateur radio astronomers to pick up from Earth.",
+          "cues": [
+            "jupiter"
+          ]
+        },
+        {
+          "t": "Beta Pictoris b appears to do it on a whole new scale. The physics has a mouthful of a name: the electron cyclotron maser instability.",
+          "cues": [
+            "bpic",
+            "ecmi"
+          ]
+        },
+        {
+          "t": "Electrons spiral along magnetic field lines, and emit intense, beamed radio waves.",
+          "cues": [
+            "spiral"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "field",
+      "lead": 0.8,
+      "tail": 0.9,
+      "music": {
+        "mood": "triumph"
+      },
+      "bursts": [
+        0.12,
+        0.2,
+        0.3,
+        0.37
+      ],
+      "segs": [
+        {
+          "t": "Here's the key. The highest frequency of that emission depends directly on the magnetic field strength where it's produced.",
+          "cues": [
+            "key"
+          ]
+        },
+        {
+          "t": "The bursts reached about three and a half gigahertz, the very top of what MeerKAT can detect.",
+          "cues": [
+            "freq"
+          ]
+        },
+        {
+          "t": "So the planet's magnetic field must be at least twelve hundred and fifty gauss.",
+          "cues": [
+            "gauss"
+          ]
+        },
+        {
+          "t": "Earth's surface field is about half a gauss. Jupiter's is between four and fourteen. Beta Pictoris b is thousands of times stronger than Earth.",
+          "cues": [
+            "compare"
+          ]
+        },
+        {
+          "t": "And that's a lower limit. The planet may emit at even higher frequencies, beyond what the telescope could see.",
+          "cues": [
+            "lower"
+          ]
+        },
+        {
+          "t": "It's the first direct measurement of an exoplanet's magnetic field. Astronomer Yvette Cendes called it, quote, an incredibly, incredibly strong magnetic field, much stronger than anything in our solar system.",
+          "cues": [
+            "first",
+            "quote"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engine",
+      "lead": 0.8,
+      "tail": 0.9,
+      "music": {
+        "mood": "tension"
+      },
+      "bursts": [
+        0.64,
+        0.72,
+        0.8
+      ],
+      "segs": [
+        {
+          "t": "What powers those bursts? The team tested several ideas.",
+          "cues": [
+            "intro"
+          ]
+        },
+        {
+          "t": "The star's wind hitting the planet? That falls short by roughly a thousand times.",
+          "cues": [
+            "wind"
+          ]
+        },
+        {
+          "t": "A moon, like Io feeding Jupiter's auroras? Still more than ten times too weak.",
+          "cues": [
+            "moon"
+          ]
+        },
+        {
+          "t": "The leading idea: that blistering spin, driving electrical currents between the planet's magnetic bubble and its upper atmosphere.",
+          "cues": [
+            "spin"
+          ]
+        },
+        {
+          "t": "And a hint: in one observation, the first and third bursts arrived about eight hours apart, close to the planet's rotation period. Like a lighthouse sweeping past us. A hint, not proof.",
+          "cues": [
+            "hint"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notaliens",
+      "lead": 0.8,
+      "tail": 0.9,
+      "music": {
+        "mood": "triumph"
+      },
+      "segs": [
+        {
+          "t": "So why are astronomers confident this isn't a message?",
+          "cues": [
+            "why"
+          ]
+        },
+        {
+          "t": "First, it's broadband, spread across many frequencies. Searches for alien technology usually hunt for the opposite: a narrow, pure tone that's hard for nature to make.",
+          "cues": [
+            "broad"
+          ]
+        },
+        {
+          "t": "Second, it's circularly polarized: the waves corkscrew through space, a fingerprint of auroral radio emission from a strongly magnetized world.",
+          "cues": [
+            "polar"
+          ]
+        },
+        {
+          "t": "Third, the magnetic field it implies matches what theory predicts for young, massive giant planets.",
+          "cues": [
+            "theory"
+          ]
+        },
+        {
+          "t": "Harvard physicist Avi Loeb, famous for taking alien possibilities seriously, says this one is most likely natural, like Earth's northern lights.",
+          "cues": [
+            "loeb"
+          ]
+        },
+        {
+          "t": "That doesn't make it less amazing. A planet is shouting across sixty-three light-years, and we can hear it.",
+          "cues": [
+            "amazing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "future",
+      "lead": 0.8,
+      "tail": 0.9,
+      "music": {
+        "mood": "wonder"
+      },
+      "segs": [
+        {
+          "t": "Why does this matter? A planet's magnetic field shapes how its atmosphere interacts with its star's wind, and carries clues about its deep interior. Until now, we had no direct way to measure those fields around other stars.",
+          "cues": [
+            "matters",
+            "nodirect"
+          ]
+        },
+        {
+          "t": "Earlier searches came up empty: a twenty twenty-two pilot of eight directly imaged planets, and a twenty twenty-four search of Beta Pictoris b itself, at lower frequencies.",
+          "cues": [
+            "history"
+          ]
+        },
+        {
+          "t": "This time it may have worked because this planet is a magnetic heavyweight.",
+          "cues": [
+            "heavy"
+          ]
+        },
+        {
+          "t": "The team has already identified seven more directly imaged giant planets, in five nearby systems, that could be studied the same way, with telescopes five to seven times more sensitive.",
+          "cues": [
+            "seven"
+          ]
+        },
+        {
+          "t": "Still, this is one preprint. Peer review and follow-up observations will put it to the test.",
+          "cues": [
+            "caveat"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "lead": 0.8,
+      "tail": 2.5,
+      "music": {
+        "mood": "triumph",
+        "outro": true
+      },
+      "segs": [
+        {
+          "t": "And here's a humbling thought. Our own radio and television broadcasts from the nineteen sixties are only now arriving in that neighborhood, far too faint for anyone to notice.",
+          "cues": [
+            "bubble"
+          ]
+        },
+        {
+          "t": "Do you think we'll ever pick up a real message? Tell me in the comments. And if this made the universe feel a little bigger, subscribe, and I'll see you in the next one.",
+          "cues": [
+            "cta"
+          ]
+        }
+      ]
+    }
+  ]
+}

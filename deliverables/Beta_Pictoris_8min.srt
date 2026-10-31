@@ -1,0 +1,591 @@
+1
+00:00:01,300 --> 00:00:05,363
+Sixty-three years ago, a burst of radio
+waves left a distant world,
+
+2
+00:00:05,403 --> 00:00:07,077
+and began crossing the dark.
+
+3
+00:00:07,820 --> 00:00:11,016
+It travelled for six decades, while humans
+walked on the Moon,
+
+4
+00:00:11,056 --> 00:00:12,216
+and built the internet.
+
+5
+00:00:12,959 --> 00:00:15,799
+Between twenty twenty-five and twenty
+twenty-six,
+
+6
+00:00:15,839 --> 00:00:18,503
+a telescope in South Africa finally caught
+it.
+
+7
+00:00:19,246 --> 00:00:22,073
+The headlines screamed: a signal from
+another world.
+
+8
+00:00:22,113 --> 00:00:24,444
+Is somebody out there trying to talk to us?
+
+9
+00:00:25,187 --> 00:00:29,659
+The short answer is no. The real answer is
+stranger, and far more exciting.
+
+10
+00:00:30,401 --> 00:00:31,305
+Let's dive in.
+
+11
+00:00:33,711 --> 00:00:37,914
+In September twenty twenty-six, a team led
+by Kevin Ortiz Ceballos,
+
+12
+00:00:37,954 --> 00:00:42,853
+at the Harvard and Smithsonian Center for
+Astrophysics, posted a paper online.
+
+13
+00:00:43,596 --> 00:00:45,368
+Their claim: for the first time,
+
+14
+00:00:45,408 --> 00:00:49,616
+radio waves have been traced directly to a
+planet outside our solar system.
+
+15
+00:00:50,358 --> 00:00:52,477
+Not to a star. To the planet itself.
+
+16
+00:00:53,220 --> 00:00:57,413
+It's called Beta Pictoris b, roughly sixty-
+three light-years away.
+
+17
+00:00:57,453 --> 00:01:00,941
+Some reports say sixty, others sixty-four.
+Same planet.
+
+18
+00:01:01,684 --> 00:01:05,958
+One caveat: this paper is a preprint. It
+hasn't been peer reviewed yet.
+
+19
+00:01:08,264 --> 00:01:10,390
+How far is sixty-three light-years?
+
+20
+00:01:10,430 --> 00:01:14,166
+Light covers nearly ten trillion kilometers
+in a single year.
+
+21
+00:01:14,206 --> 00:01:15,961
+Multiply that by sixty-three.
+
+22
+00:01:16,704 --> 00:01:20,529
+No spacecraft we've built could make that
+trip in a human lifetime.
+
+23
+00:01:20,569 --> 00:01:23,356
+Voyager One would need more than a million
+years.
+
+24
+00:01:24,099 --> 00:01:28,755
+Our destination: the star Beta Pictoris, in
+the southern constellation Pictor,
+
+25
+00:01:28,795 --> 00:01:29,959
+the Painter's Easel.
+
+26
+00:01:30,702 --> 00:01:34,291
+It's young, bright, and white. About twenty-
+three million years old,
+
+27
+00:01:34,331 --> 00:01:38,347
+and roughly twice the mass of our Sun, which
+makes it practically a newborn.
+
+28
+00:01:39,090 --> 00:01:42,003
+Around it swirls an edge-on disk of dust and
+debris,
+
+29
+00:01:42,043 --> 00:01:44,217
+the leftover rubble of planet-building.
+
+30
+00:01:46,322 --> 00:01:49,976
+Inside that disk, about ten astronomical
+units from its star,
+
+31
+00:01:50,016 --> 00:01:54,821
+roughly where Saturn sits in our own solar
+system, orbits the star of our story.
+
+32
+00:01:55,564 --> 00:01:59,781
+Beta Pictoris b. A gas giant about twelve
+times the mass of Jupiter,
+
+33
+00:01:59,821 --> 00:02:03,037
+taking roughly twenty-four years to circle
+its star.
+
+34
+00:02:03,780 --> 00:02:08,341
+And it spins incredibly fast: one full
+rotation in only eight to nine hours.
+
+35
+00:02:09,084 --> 00:02:12,789
+A heavyweight planet with a blistering spin,
+that's the secret.
+
+36
+00:02:12,829 --> 00:02:17,782
+A fast-spinning world with a powerful
+magnetic field is a natural radio
+transmitter.
+
+37
+00:02:18,525 --> 00:02:20,901
+Better still, its star is magnetically
+quiet,
+
+38
+00:02:20,941 --> 00:02:23,317
+so it doesn't drown out the planet's
+whisper.
+
+39
+00:02:25,623 --> 00:02:27,878
+To hear it, the team used MeerKAT,
+
+40
+00:02:27,918 --> 00:02:31,254
+a radio telescope in South Africa's Northern
+Cape,
+
+41
+00:02:31,294 --> 00:02:34,899
+about ninety kilometers outside the town of
+Carnarvon.
+
+42
+00:02:35,642 --> 00:02:40,480
+It's sixty-four dishes, spread across the
+desert, working together as one giant ear.
+
+43
+00:02:41,223 --> 00:02:43,422
+That trick is called interferometry.
+
+44
+00:02:43,462 --> 00:02:48,459
+Combining every dish lets astronomers
+pinpoint where in the sky a radio wave came
+
+45
+00:02:48,499 --> 00:02:48,770
+from.
+
+46
+00:02:49,512 --> 00:02:53,593
+It's a stepping stone to the Square
+Kilometre Array, a future mega-telescope.
+
+47
+00:02:54,336 --> 00:02:56,874
+They pointed it at Beta Pictoris four times,
+
+48
+00:02:56,914 --> 00:03:01,678
+across twenty twenty-five and twenty twenty-
+six. Every time, they heard something.
+
+49
+00:03:02,421 --> 00:03:06,072
+Short bursts of radio emission, that
+brightened and faded in moments.
+
+50
+00:03:08,378 --> 00:03:11,117
+But hearing a signal isn't enough. On the
+sky,
+
+51
+00:03:11,157 --> 00:03:14,501
+the planet sits at most half an arcsecond
+from its star,
+
+52
+00:03:14,541 --> 00:03:17,643
+the width of a coin seen from seven
+kilometers away.
+
+53
+00:03:18,386 --> 00:03:21,735
+Earlier searches found radio signals from
+planetary systems,
+
+54
+00:03:21,775 --> 00:03:25,407
+but couldn't prove whether the planet or its
+star was the source.
+
+55
+00:03:26,150 --> 00:03:29,877
+So the team used cosmic lighthouses: nine
+distant quasars,
+
+56
+00:03:29,917 --> 00:03:32,929
+precisely measured by the Gaia space
+telescope,
+
+57
+00:03:32,969 --> 00:03:37,151
+plus one carefully located calibrator, as
+fixed reference points.
+
+58
+00:03:37,894 --> 00:03:42,754
+Anchoring the radio image to those points
+locked it onto the sky with astonishing
+
+59
+00:03:42,794 --> 00:03:43,298
+accuracy.
+
+60
+00:03:44,041 --> 00:03:48,872
+The result: the signal lined up with planet
+b, and was far enough from the star,
+
+61
+00:03:48,912 --> 00:03:52,160
+and from the planet Beta Pictoris c, to rule
+both out.
+
+62
+00:03:54,466 --> 00:03:57,019
+So what is this signal? Think of the
+northern lights.
+
+63
+00:03:57,762 --> 00:04:02,459
+On Earth, charged particles are funneled by
+our magnetic field toward the poles,
+
+64
+00:04:02,499 --> 00:04:06,782
+slam into the upper atmosphere, and glow.
+They also give off radio waves,
+
+65
+00:04:06,822 --> 00:04:07,907
+which we can't see.
+
+66
+00:04:08,650 --> 00:04:10,747
+Jupiter does it far more powerfully.
+
+67
+00:04:10,787 --> 00:04:15,555
+Its radio auroras are strong enough for
+amateur radio astronomers to pick up from
+
+68
+00:04:15,595 --> 00:04:15,911
+Earth.
+
+69
+00:04:16,654 --> 00:04:20,118
+Beta Pictoris b appears to do it on a whole
+new scale.
+
+70
+00:04:20,158 --> 00:04:25,243
+The physics has a mouthful of a name: the
+electron cyclotron maser instability.
+
+71
+00:04:25,986 --> 00:04:31,343
+Electrons spiral along magnetic field lines,
+and emit intense, beamed radio waves.
+
+72
+00:04:33,649 --> 00:04:34,431
+Here's the key.
+
+73
+00:04:34,471 --> 00:04:38,651
+The highest frequency of that emission
+depends directly on the magnetic field
+
+74
+00:04:38,691 --> 00:04:40,240
+strength where it's produced.
+
+75
+00:04:40,983 --> 00:04:44,000
+The bursts reached about three and a half
+gigahertz,
+
+76
+00:04:44,040 --> 00:04:46,351
+the very top of what MeerKAT can detect.
+
+77
+00:04:47,094 --> 00:04:51,236
+So the planet's magnetic field must be at
+least twelve hundred and fifty gauss.
+
+78
+00:04:51,979 --> 00:04:57,071
+Earth's surface field is about half a gauss.
+Jupiter's is between four and fourteen.
+
+79
+00:04:57,111 --> 00:05:00,614
+Beta Pictoris b is thousands of times
+stronger than Earth.
+
+80
+00:05:01,357 --> 00:05:05,469
+And that's a lower limit. The planet may
+emit at even higher frequencies,
+
+81
+00:05:05,509 --> 00:05:07,516
+beyond what the telescope could see.
+
+82
+00:05:08,259 --> 00:05:12,288
+It's the first direct measurement of an
+exoplanet's magnetic field.
+
+83
+00:05:12,328 --> 00:05:15,749
+Astronomer Yvette Cendes called it, quote,
+an incredibly,
+
+84
+00:05:15,789 --> 00:05:20,729
+incredibly strong magnetic field, much
+stronger than anything in our solar system.
+
+85
+00:05:23,035 --> 00:05:26,339
+What powers those bursts? The team tested
+several ideas.
+
+86
+00:05:27,082 --> 00:05:31,778
+The star's wind hitting the planet? That
+falls short by roughly a thousand times.
+
+87
+00:05:32,521 --> 00:05:37,193
+A moon, like Io feeding Jupiter's auroras?
+Still more than ten times too weak.
+
+88
+00:05:37,936 --> 00:05:40,172
+The leading idea: that blistering spin,
+
+89
+00:05:40,212 --> 00:05:44,725
+driving electrical currents between the
+planet's magnetic bubble and its upper
+
+90
+00:05:44,765 --> 00:05:45,367
+atmosphere.
+
+91
+00:05:46,110 --> 00:05:47,980
+And a hint: in one observation,
+
+92
+00:05:48,020 --> 00:05:51,615
+the first and third bursts arrived about
+eight hours apart,
+
+93
+00:05:51,655 --> 00:05:56,668
+close to the planet's rotation period. Like
+a lighthouse sweeping past us. A hint,
+
+94
+00:05:56,708 --> 00:05:57,284
+not proof.
+
+95
+00:05:59,590 --> 00:06:02,540
+So why are astronomers confident this isn't
+a message?
+
+96
+00:06:03,283 --> 00:06:06,625
+First, it's broadband, spread across many
+frequencies.
+
+97
+00:06:06,665 --> 00:06:11,008
+Searches for alien technology usually hunt
+for the opposite: a narrow,
+
+98
+00:06:11,048 --> 00:06:13,576
+pure tone that's hard for nature to make.
+
+99
+00:06:14,319 --> 00:06:18,552
+Second, it's circularly polarized: the waves
+corkscrew through space,
+
+100
+00:06:18,592 --> 00:06:23,072
+a fingerprint of auroral radio emission from
+a strongly magnetized world.
+
+101
+00:06:23,815 --> 00:06:28,242
+Third, the magnetic field it implies matches
+what theory predicts for young,
+
+102
+00:06:28,282 --> 00:06:29,535
+massive giant planets.
+
+103
+00:06:30,278 --> 00:06:34,932
+Harvard physicist Avi Loeb, famous for
+taking alien possibilities seriously,
+
+104
+00:06:34,972 --> 00:06:39,070
+says this one is most likely natural, like
+Earth's northern lights.
+
+105
+00:06:39,813 --> 00:06:41,612
+That doesn't make it less amazing.
+
+106
+00:06:41,652 --> 00:06:45,506
+A planet is shouting across sixty-three
+light-years, and we can hear it.
+
+107
+00:06:47,812 --> 00:06:49,025
+Why does this matter?
+
+108
+00:06:49,065 --> 00:06:53,976
+A planet's magnetic field shapes how its
+atmosphere interacts with its star's wind,
+
+109
+00:06:54,016 --> 00:06:57,137
+and carries clues about its deep interior.
+Until now,
+
+110
+00:06:57,177 --> 00:07:00,955
+we had no direct way to measure those fields
+around other stars.
+
+111
+00:07:01,698 --> 00:07:03,579
+Earlier searches came up empty:
+
+112
+00:07:03,619 --> 00:07:07,234
+a twenty twenty-two pilot of eight directly
+imaged planets,
+
+113
+00:07:07,274 --> 00:07:12,190
+and a twenty twenty-four search of Beta
+Pictoris b itself, at lower frequencies.
+
+114
+00:07:12,932 --> 00:07:16,545
+This time it may have worked because this
+planet is a magnetic heavyweight.
+
+115
+00:07:17,288 --> 00:07:21,861
+The team has already identified seven more
+directly imaged giant planets,
+
+116
+00:07:21,901 --> 00:07:25,589
+in five nearby systems, that could be
+studied the same way,
+
+117
+00:07:25,629 --> 00:07:28,812
+with telescopes five to seven times more
+sensitive.
+
+118
+00:07:29,555 --> 00:07:31,132
+Still, this is one preprint.
+
+119
+00:07:31,172 --> 00:07:34,770
+Peer review and follow-up observations will
+put it to the test.
+
+120
+00:07:37,076 --> 00:07:38,793
+And here's a humbling thought.
+
+121
+00:07:38,833 --> 00:07:43,360
+Our own radio and television broadcasts from
+the nineteen sixties are only now
+
+122
+00:07:43,400 --> 00:07:47,225
+arriving in that neighborhood, far too faint
+for anyone to notice.
+
+123
+00:07:47,968 --> 00:07:51,794
+Do you think we'll ever pick up a real
+message? Tell me in the comments.
+
+124
+00:07:51,834 --> 00:07:55,122
+And if this made the universe feel a little
+bigger, subscribe,
+
+125
+00:07:55,162 --> 00:07:56,894
+and I'll see you in the next one.
